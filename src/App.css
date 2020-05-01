@@ -108,13 +108,21 @@
   border-color: #000000;
 }
 
-.profile-text body {
+.about-intro {
+  font: Noto-Sans;
+  font-weight: 200;
+  font-size: 46px;
+}
+
+.profile-text p {
   font-size: 30px;
   font-weight: 200;
   text-align: center;
   font: Noto Sans;
   padding: 30px 0;
   line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 @keyframes App-logo-spin {

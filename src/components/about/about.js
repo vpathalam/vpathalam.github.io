@@ -11,17 +11,25 @@ class About extends Component {
           style={{ width: "100%", margin: "auto" }}
         >
           <Cell col={12}>
-            <h1>Let me introduce myself...</h1>
+            <h1 className="about-intro">Let me introduce myself...</h1>
             <div className="profile-text">
               <img alt="logo" className="profile" src={Profile} />
               <body>
-                I'm third-year student at Northeastern University pursuing a
-                B.S. in Computer Science. I consider myself as an adaptable
-                engineer who has an understanding of a number of languages
-                (notably Java, Python, C++, Javascript) and development styles
-                (RESTFUL application deployment, embedded implementations,
-                machine learning frameworks). I'm seeking a role to create
-                impact in a software or machine learning environment.
+                <p>
+                  I am a current fourth-year student at Northeastern University
+                  pursuing a B.S. in Computer Science. My results-oriented
+                  experience, combined with my passion for software development,
+                  has enabled me to become an effective contributor through work
+                  with multiple startups and in the defense industry.
+                </p>
+                <p>
+                  I consider myself as an adaptable engineer who has an
+                  understanding of a number of languages (notably Java, Python,
+                  C++, Javascript) and development styles (RESTFUL application
+                  deployment, embedded implementations, machine learning
+                  frameworks). I spend most of my time learning, be it new tech,
+                  stock trades, or personal development.
+                </p>
               </body>
             </div>
           </Cell>
