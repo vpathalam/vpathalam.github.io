@@ -1,31 +1,120 @@
-.App {
+.header-color {
+  background: #eacda3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #d6ae7b,
+    #eacda3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d6ae7b,
+    #eacda3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  filter: saturate(150%);
+}
+
+.landing-grid {
+  background: #eacda3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #d6ae7b,
+    #eacda3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d6ae7b,
+    #eacda3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  filter: saturate(150%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  height: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-text {
+  width: 75%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  align-content: center;
+  text-align: center;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner-text img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.banner-text h1 {
+  font-size: 46px;
+  font-weight: 100;
+  text-align: center;
+  font: Noto Sans;
+}
+
+.banner-text hr {
+  width: 70%;
+  margin: auto;
+  border-top: 4px solid;
+}
+
+.social-links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 6em;
 }
 
-.App-link {
-  color: #61dafb;
+.Linkedin:hover {
+  cursor: pointer;
+  filter: saturate(500%);
+}
+
+.Github:hover {
+  cursor: pointer;
+  filter: invert(100%);
+}
+
+.Gmail:hover {
+  cursor: pointer;
+  filter: saturate(500%);
+}
+
+.Skype:hover {
+  cursor: pointer;
+  filter: saturate(500%);
+}
+
+.footie {
+  text-align: center;
+}
+
+.profile {
+  padding-top: 30px;
+  height: 400px;
+  margin: auto;
+}
+
+.profile-text {
+  margin: auto;
+  width: 75%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.profile-text body {
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+  font: Noto Sans;
+  padding: 30px 0;
+  line-height: 40px;
 }
 
 @keyframes App-logo-spin {
