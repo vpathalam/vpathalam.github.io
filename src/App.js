@@ -19,14 +19,24 @@ function App() {
         transparent
         title="Vikram Pathalam"
         className="header-color"
-        style={{ color: "white" }}
+        style={{ color: "black" }}
       >
         <Navigation>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/resume">Resume</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/" style={{ color: "black" }}>
+            Home
+          </Link>
+          <Link to="/about" style={{ color: "black" }}>
+            About
+          </Link>
+          <Link to="/resume" style={{ color: "black" }}>
+            Resume
+          </Link>
+          <Link to="/projects" style={{ color: "black" }}>
+            Projects
+          </Link>
+          <Link to="/contact" style={{ color: "black" }}>
+            Contact
+          </Link>
         </Navigation>
       </Header>
       <Drawer title="Contents:">
