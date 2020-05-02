@@ -173,6 +173,28 @@ class Projects extends Component {
               diagnostic system using Matlab.
             </CardText>
           </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#FFFFFF",
+                height: "176px",
+                background:
+                  "url(https://draftfcb.net/wp-content/uploads/2019/09/1.jpg) center / cover",
+              }}
+            >
+              Media Source Sentiment Analysis
+            </CardTitle>
+            <CardText>
+              Developed supervised machine learning models using Python to infer
+              political bias of Fox News, The Wall Street Journal, The New York
+              Times, and CNN Twitter accounts on 2020 presidential candidates.
+              Developed as a part of DS3000: Foundations of Data Science @
+              Northeastern.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 4) {
@@ -193,6 +215,27 @@ class Projects extends Component {
               Implemented Basic Filesystem in C to implement hard links,
               symlinks, metadata, and manipulation of directories and files.
               Developed as part of CS3650: Computer Systems @ Northeastern.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#FFFFFF",
+                height: "176px",
+                background:
+                  "url(https://hotforsecurity.bitdefender.com/wp-content/uploads/2013/02/java-logo.png) center / cover",
+              }}
+            >
+              Animation Creator
+            </CardTitle>
+            <CardText>
+              Developed a Java MVC application to create animations based on
+              shapes and different element attributes such as timeframe, color,
+              position, and dimension. Developed as a part of CS3500:
+              Object-Oriented Design @ Northeastern.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
