@@ -170,7 +170,8 @@ class Projects extends Component {
               Developed supervised classification algorithm for automated
               detection of dementia. Observed parameters including age, gender,
               MMSE score, entropy, atrophy, region of interest to serve as early
-              diagnostic system using Matlab.
+              diagnostic system using Matlab. Project received 1st Place at
+              Massachusetts State Science & Engineering Fair.
             </CardText>
           </Card>
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -240,6 +241,42 @@ class Projects extends Component {
             <CardActions border>
               <Button colored>GitHub</Button>
             </CardActions>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#FFFFFF",
+                height: "176px",
+                background:
+                  "url(https://www.predictiveindex.com/wp-content/uploads/2018/07/Library-Tiles_People-Management-222x300.png) center / cover",
+              }}
+            >
+              Autonomous Solar Panel Cleaning Robot
+            </CardTitle>
+            <CardText>
+              Developed an autonomous solar panel cleaning robot to restore
+              output efficiency and periodically keep solar systems performing
+              at full capacity with squeegee and liquid repellent combination.
+              Tested effects of particulate matter on the solar panel output.
+            </CardText>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#FFFFFF",
+                height: "176px",
+                background:
+                  "url(https://crazyleafdesign.com/blog/wp-content/uploads/2016/10/beaker_1x.jpg) center / cover",
+              }}
+            >
+              Effect of Phyllanthus Amarus on Liver Cancer Cell Proliferation
+            </CardTitle>
+            <CardText>
+              Tested the effect of Phyllanthus Amarus on HepG2 (liver
+              hepatocellular carcinoma) cancer cell proliferation rates. After
+              initial testing, new synergistic herb combinations were created to
+              further deter cancer spread.
+            </CardText>
           </Card>
         </div>
       );
