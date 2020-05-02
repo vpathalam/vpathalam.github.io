@@ -62,6 +62,9 @@ class Projects extends Component {
               Angular, Node.js, HTML, CSS, Mongoose, MapboxGL API as a part of
               web.lab @ MIT.
             </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
           </Card>
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
