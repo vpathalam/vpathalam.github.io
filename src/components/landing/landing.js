@@ -15,7 +15,7 @@ class Landing extends Component {
             <div className="banner-text">
               <img alt="logo" className="logo" src={Logo} />
               <hr />
-              <h1>Software Engineer | Student | Hobbyist</h1>
+              <h1>Student | Software Engineer | Hobbyist</h1>
               <div className="social-links">
                 {/* Linkedin Icon */}
                 <a

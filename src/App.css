@@ -11,6 +11,8 @@
     #eacda3
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
+  font: Noto Sans;
+  font-weight: 200;
 }
 
 .landing-grid {
@@ -92,6 +94,7 @@
 
 .footie {
   text-align: center;
+  position: relative;
 }
 
 .profile {
@@ -123,6 +126,16 @@
   line-height: 40px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  min-height: 90%;
+  background-color: #dfb36d;
 }
 
 @keyframes App-logo-spin {

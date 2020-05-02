@@ -17,25 +17,25 @@ function App() {
     <Layout>
       <Header
         transparent
-        title="Vikram Pathalam"
+        title="VIKRAM PATHALAM"
         className="header-color"
         style={{ color: "black" }}
       >
         <Navigation>
           <Link to="/" style={{ color: "black" }}>
-            Home
+            HOME
           </Link>
           <Link to="/about" style={{ color: "black" }}>
-            About
+            ABOUT
           </Link>
           <Link to="/resume" style={{ color: "black" }}>
-            Resume
+            RESUME
           </Link>
           <Link to="/projects" style={{ color: "black" }}>
-            Projects
+            PROJECTS
           </Link>
           <Link to="/contact" style={{ color: "black" }}>
-            Contact
+            CONTACT
           </Link>
         </Navigation>
       </Header>
