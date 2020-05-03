@@ -10,6 +10,7 @@ import {
   Navigation,
   Drawer,
   Content,
+  Button,
 } from "react-mdl";
 
 function App() {
@@ -28,8 +29,8 @@ function App() {
           <Link to="/about" style={{ color: "black" }}>
             ABOUT
           </Link>
-          <Link to="/resume" style={{ color: "black" }}>
-            RESUME
+          <Link to="/experience" style={{ color: "black" }}>
+            EXPERIENCE
           </Link>
           <Link to="/projects" style={{ color: "black" }}>
             PROJECTS
@@ -38,12 +39,21 @@ function App() {
             CONTACT
           </Link>
         </Navigation>
+        <a
+          href="mailto:vpathalam@gmail.com?subject=Request%20for%20most%20recent%20resume%20:%20<Insert%20Name/Company%20Here>"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Button raised colored ripple>
+            REQUEST RESUME
+          </Button>
+        </a>
       </Header>
       <Drawer title="Contents:">
         <Navigation>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/resume">Resume</Link>
+          <Link to="/experience">Experience</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/contact">Contact</Link>
         </Navigation>

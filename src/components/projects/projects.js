@@ -38,7 +38,13 @@ class Projects extends Component {
               React.js, Node.js, HTML, CSS, SWAPI.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a
+                href="https://github.com/vpathalam/vp-swapi"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
           </Card>
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -59,7 +65,13 @@ class Projects extends Component {
               web.lab @ MIT.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a
+                href="https://github.com/vpathalam/techelp"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
           </Card>
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -79,7 +91,13 @@ class Projects extends Component {
               Science. Developed using Javascript, React.js, HTML, CSS, PHP.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a
+                href="https://github.com/vpathalam/personal-website"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
           </Card>
         </div>
@@ -148,7 +166,13 @@ class Projects extends Component {
               Python, Librosa, Scikit-learn, RAVDESS dataset.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a
+                href="https://github.com/vpathalam/speech-emotion"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>{" "}
             </CardActions>
           </Card>
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -189,7 +213,13 @@ class Projects extends Component {
               Northeastern.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a
+                href="https://github.com/vpathalam/election-sentiment-analysis"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
           </Card>
         </div>
@@ -214,7 +244,13 @@ class Projects extends Component {
               Developed as part of CS3650: Computer Systems @ Northeastern.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a
+                href="https://github.com/vpathalam/basic-filesystem"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
           </Card>
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -235,7 +271,13 @@ class Projects extends Component {
               Object-Oriented Design @ Northeastern.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <a
+                href="https://github.com/vpathalam/animation-creator"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
             </CardActions>
           </Card>
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>

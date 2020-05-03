@@ -2,7 +2,7 @@ import React from "react";
 
 import Landing from "./landing/landing.js";
 import About from "./about/about.js";
-import Resume from "./resume/resume.js";
+import Experience from "./experience/experience.js";
 import Contact from "./contact/contact.js";
 import Projects from "./projects/projects.js";
 
@@ -13,7 +13,7 @@ const Main = () => (
   <Switch>
     <Route exact path="/" component={Landing} />
     <Route path="/about" component={About} />
-    <Route path="/resume" component={Resume} />
+    <Route path="/experience" component={Experience} />
     <Route path="/projects" component={Projects} />
     <Route path="/contact" component={Contact} />
   </Switch>
