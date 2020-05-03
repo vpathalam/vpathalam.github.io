@@ -9,7 +9,7 @@ import Skype from "../../resources/social-icons/skype.png";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "auto", color: "black" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <div className="banner-text">

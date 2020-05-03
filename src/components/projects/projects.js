@@ -6,13 +6,9 @@ import {
   Cell,
   Card,
   CardTitle,
-  CardMenu,
   Button,
-  IconButton,
   CardText,
   CardActions,
-  Footer,
-  FooterSection,
 } from "react-mdl";
 
 class Projects extends Component {

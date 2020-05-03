@@ -1,14 +1,14 @@
 .header-color {
-  background: #eacda3; /* fallback for old browsers */
+  background: #768f7e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #d6ae7b,
-    #eacda3
+    #768f7e,
+    #a7b9ac
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #d6ae7b,
-    #eacda3
+    #768f7e,
+    #a7b9ac
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
   font: Noto Sans;
@@ -16,23 +16,23 @@
 }
 
 .landing-grid {
-  background: #eacda3; /* fallback for old browsers */
+  background: #768f7e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #d6ae7b,
-    #eacda3
+    #768f7e,
+    #a7b9ac
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #d6ae7b,
-    #eacda3
+    #768f7e,
+    #a7b9ac
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
   text-align: center;
 }
 
 .logo {
-  height: 500px;
+  height: 300px;
 }
 
 .banner-text {
@@ -52,7 +52,7 @@
 }
 
 .banner-text h1 {
-  font-size: 46px;
+  font-size: 30px;
   font-weight: 100;
   text-align: center;
   font: Noto Sans;
@@ -99,7 +99,7 @@
 
 .profile {
   padding-top: 30px;
-  height: 400px;
+  height: 300px;
   margin: auto;
 }
 
@@ -114,11 +114,11 @@
 .about-intro {
   font: Noto-Sans;
   font-weight: 200;
-  font-size: 46px;
+  font-size: 30px;
 }
 
 .profile-text p {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 200;
   text-align: center;
   font: Noto Sans;
@@ -135,7 +135,16 @@
 
 .content {
   min-height: 90%;
-  background-color: #dfb36d;
+  background-color: #768f7e7a;
+}
+
+.resume-page {
+  min-height: 87%;
+}
+
+.resume-right-col {
+  color: white;
+  background: #27221f;
 }
 
 @keyframes App-logo-spin {
