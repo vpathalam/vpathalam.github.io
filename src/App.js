@@ -67,7 +67,7 @@ function App() {
             <FooterSection
               type="bottom"
               className="footie"
-              logo="© Vikram Pathalam, 2020."
+              logo="Created by Vikram Pathalam, 2020."
             />
           </Footer>
           {/**/}

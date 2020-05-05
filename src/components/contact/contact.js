@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Cell, Grid } from "react-mdl";
+import { Cell, Grid, Button } from "react-mdl";
+const API_PATH =
+  "http://localhost:3000/react-contact-form/api/contact/index.php";
 
 class Contact extends Component {
   constructor(props) {
@@ -8,56 +10,84 @@ class Contact extends Component {
     this.state = {
       name: "",
       email: "",
+      company: "",
       message: "",
+      mailSent: false,
+      error: null,
     };
   }
 
   render() {
     return (
-      <div>
+      <div className="contact-page">
         <Grid
           className="landing-grid"
           style={{ width: "100%", margin: "auto" }}
         >
           <Cell col={12}>
-            <div className="App">
-              <form
-                id="contact-form"
-                onSubmit={this.handleSubmit.bind(this)}
-                method="POST"
-              >
-                <div className="form-group">
-                  <label htmlFor="name">Name</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    value={this.state.name}
-                    onChange={this.onNameChange.bind(this)}
-                  />
+            <div className="contact-border">
+              <div className="contact-form">
+                <h1>Say Hello!</h1>
+                <div>
+                  <form
+                    action="/action_page.php"
+                    onSubmit={this.handleFormSubmit.bind(this)}
+                    method="POST"
+                  >
+                    <label>Name: </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your name..."
+                      value={this.state.name}
+                      onChange={(e) => this.setState({ name: e.target.value })}
+                    />
+                    <label>Company: </label>
+                    <input
+                      type="text"
+                      id="company"
+                      name="company"
+                      placeholder="Your company name..."
+                      value={this.state.company}
+                      onChange={(e) =>
+                        this.setState({ company: e.target.value })
+                      }
+                    />
+
+                    <label>Email: </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Your email..."
+                      value={this.state.email}
+                      onChange={(e) => this.setState({ email: e.target.value })}
+                    />
+
+                    <label>Message: </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Your message..."
+                      onChange={(e) =>
+                        this.setState({ message: e.target.value })
+                      }
+                      value={this.state.message}
+                    ></textarea>
+                    <Button
+                      colored
+                      raised
+                      ripple
+                      type="submit"
+                      className="button button-primary"
+                      value="Submit"
+                    >
+                      Submit
+                    </Button>
+                  </form>
                 </div>
-                <div className="form-group">
-                  <label htmlFor="exampleInputEmail1">Email address</label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    aria-describedby="emailHelp"
-                    value={this.state.email}
-                    onChange={this.onEmailChange.bind(this)}
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="message">Message</label>
-                  <textarea
-                    className="form-control"
-                    rows="5"
-                    value={this.state.message}
-                    onChange={this.onMessageChange.bind(this)}
-                  />
-                </div>
-                <button type="submit" className="btn btn-primary">
-                  Submit
-                </button>
-              </form>
+              </div>
             </div>
           </Cell>
         </Grid>
@@ -65,19 +95,16 @@ class Contact extends Component {
     );
   }
 
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
-  }
+  resetForm = () => {
+    this.setState({
+      name: "",
+      message: "",
+      company: "",
+      email: "",
+    });
+  };
 
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
-  }
-
-  onMessageChange(event) {
-    this.setState({ message: event.target.value });
-  }
-
-  handleSubmit(e) {
+  handleFormSubmit(e) {
     e.preventDefault();
 
     axios({
