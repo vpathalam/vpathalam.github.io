@@ -44,12 +44,17 @@ function App() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Button raised colored ripple>
+          <Button
+            raised
+            colored
+            ripple
+            class="mdl-button mdl-color--light-blue-900 mdl-color-text--white"
+          >
             REQUEST RESUME
           </Button>
         </a>
       </Header>
-      <Drawer title="Contents:">
+      <Drawer title="Contents:" className="drawer">
         <Navigation>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>

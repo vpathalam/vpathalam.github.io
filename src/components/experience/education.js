@@ -14,7 +14,7 @@ class Education extends Component {
             src={Northeastern}
             alt="northeastern"
             className="Northeastern"
-            style={{ width: "150px" }}
+            style={{ width: "140px" }}
           />
         </Cell>
         <Cell col={8}>

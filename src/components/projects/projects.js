@@ -335,7 +335,7 @@ class Projects extends Component {
           <Tab>Machine Learning</Tab>
           <Tab>Miscellaneous</Tab>
         </Tabs>
-        <Grid className="content">
+        <Grid>
           <Cell col={12}>
             <div>{this.toggleCategories()}</div>
           </Cell>
