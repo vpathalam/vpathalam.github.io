@@ -16,19 +16,19 @@ class About extends Component {
               <img alt="logo" className="profile" src={Profile} />
               <body>
                 <p>
-                  I am a current fourth-year student at Northeastern University
-                  pursuing a B.S. in Computer Science. My results-oriented
-                  experience, combined with my passion for software development,
-                  has enabled me to become an effective contributor through work
-                  with multiple startups and in the defense industry.
+                  I am a fourth-year student at Northeastern University pursuing
+                  a B.S. in Computer Science. My strong work ethic combined with
+                  my passion for software development has enabled me to become
+                  an effective contributor through work with multiple startups
+                  and in the aerospace industry.
                 </p>
                 <p>
-                  I consider myself as an adaptable engineer who has an
-                  understanding of a number of languages (notably Java, Python,
-                  C++, Javascript) and development styles (RESTFUL application
+                  I consider myself as an adaptable software engineer who has an
+                  understanding of a number of languages (Java, Python, C++,
+                  Javascript) and development styles (RESTFUL application
                   deployment, embedded implementations, machine learning
-                  frameworks). I spend most of my time learning, be it new tech,
-                  stock trades, or personal development.
+                  frameworks). I spend most of my time learning - whether it be
+                  about new tech, stock trades, or personal development.
                 </p>
               </body>
             </div>
