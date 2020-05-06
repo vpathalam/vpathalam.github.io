@@ -5,9 +5,9 @@ import Northeastern from "../../resources/northeastern.png";
 class Education extends Component {
   render() {
     return (
-      <Grid>
+      <Grid className="education-style">
         <Cell col={4}>
-          <p style={{ marginTop: "4px" }}>
+          <p className="timeframe" style={{ marginTop: "4px" }}>
             {this.props.startYear} - {this.props.endYear}
           </p>
           <img
@@ -18,9 +18,11 @@ class Education extends Component {
           />
         </Cell>
         <Cell col={8}>
-          <h4 style={{ marginTop: "4px" }}>{this.props.schoolName}</h4>
-          <p>Candidate for B.S. in Computer Science</p>
-          <p>
+          <h4 className="workname" style={{ marginTop: "4px" }}>
+            {this.props.schoolName}
+          </h4>
+          <p className="position">Candidate for B.S. in Computer Science</p>
+          <p className="exp-description">
             Relevant Coursework: Algorithms & Data Structures, Object Oriented
             Design, Computer Systems, Probability & Statistics, Linear Algebra,
             Discrete Structures, Logic & Computation, Embedded Systems Robotics,

@@ -140,6 +140,17 @@
 
 .resume-page {
   min-height: 87%;
+  background: #768f7e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #768f7e,
+    #a7b9ac
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #768f7e,
+    #a7b9ac
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .contact-page {
@@ -161,6 +172,40 @@
   color: white;
   background: #27221f;
   padding: 2em;
+  border-radius: 10px;
+}
+
+.resume-right-col h2 {
+  font: Noto-Sans;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.resume-page h2 {
+  font: Noto-Sans;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.timeframe {
+  font: Noto-Sans;
+  font-weight: 200;
+}
+
+.workname {
+  font: Noto-Sans;
+  font-weight: 200;
+}
+
+.position {
+  font: Noto-Sans;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.exp-description {
+  font: Noto-Sans;
+  font-weight: 200;
 }
 
 .contact-form {
@@ -215,6 +260,10 @@ textarea {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.desc-break {
+  white-space: pre-wrap;
 }
 
 @keyframes App-logo-spin {
