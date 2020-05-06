@@ -88,7 +88,8 @@ class Projects extends Component {
             <CardText>
               Developed a personal website to better represent my current
               accomplishments and aspirations within the field of Computer
-              Science. Developed using Javascript, React.js, HTML, CSS, PHP.
+              Science. Developed using Javascript, React.js, HTML, CSS,
+              Express.js.
             </CardText>
             <CardActions border>
               <a
