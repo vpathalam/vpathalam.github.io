@@ -98,7 +98,7 @@ class Contact extends Component {
 
     axios({
       method: "POST",
-      url: "http://localhost:3002/send",
+      url: "https://node-api-mswn0f6g1.now.sh",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "success") {
