@@ -98,7 +98,7 @@ class Contact extends Component {
 
     axios({
       method: "POST",
-      url: "https://node-api-mswn0f6g1.now.sh",
+      url: "node-api-git-new-branch.vpathalam.now.sh",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "success") {
