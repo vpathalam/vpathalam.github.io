@@ -10,8 +10,8 @@ class Contact extends Component {
       email: "",
       company: "",
       message: "",
-      mailSent: false,
-      error: null,
+      sent: false,
+      buttonText: "Send Message",
     };
   }
 
@@ -73,7 +73,7 @@ class Contact extends Component {
                     className="button button-primary"
                     value="Submit"
                   >
-                    Submit
+                    {this.state.buttonText}
                   </Button>
                 </form>
               </div>
@@ -93,22 +93,29 @@ class Contact extends Component {
     });
   };
 
-  handleFormSubmit(e) {
+  handleFormSubmit = (e) => {
     e.preventDefault();
 
-    axios({
-      method: "POST",
-      url: "node-api-xi.now.sh",
-      data: this.state,
-    }).then((response) => {
-      if (response.data.status === "success") {
-        alert("Message Sent.");
-        this.resetForm();
-      } else if (response.data.status === "fail") {
-        alert("Message failed to send.");
-      }
+    let data = {
+      name: this.state.name,
+      email: this.state.email,
+      company: this.state.company,
+      message: this.state.message,
+    };
+
+    this.setState({
+      buttonText: "Sending",
     });
-  }
+
+    axios
+      .post("node-api-m2l9pin6t.now.sh", data)
+      .then((res) => {
+        this.setState({ sent: true }, this.resetForm());
+      })
+      .catch((error) => {
+        return error;
+      });
+  };
 }
 
 export default Contact;
