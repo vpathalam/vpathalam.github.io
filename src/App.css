@@ -232,6 +232,20 @@
   padding-bottom: 30px;
 }
 
+.contact-form p {
+  font: Noto Sans;
+  font-weight: 200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  font-size: 20px;
+}
+
+.contact-form Button {
+  padding-bottom: 20px;
+  margin: auto;
+}
+
 .contact-border {
   margin: auto;
   width: 75%;
