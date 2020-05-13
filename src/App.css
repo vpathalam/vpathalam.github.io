@@ -30,6 +30,7 @@
   filter: saturate(150%);
   text-align: center;
   min-height: 100%;
+  height: 100%;
 }
 
 .logo {
@@ -48,7 +49,8 @@
   align-content: center;
   text-align: center;
   margin: auto;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .banner-text img {
@@ -156,7 +158,7 @@
     #f4976c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
-  padding-bottom: 300px;
+  padding-bottom: 320px;
 }
 
 .resume-page {
@@ -190,8 +192,8 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
   text-align: center;
-  padding-bottom: 115px;
-  padding-top: 115px;
+  padding-bottom: 130px;
+  padding-top: 130px;
 }
 
 .resume-right-col {
