@@ -29,6 +29,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
   text-align: center;
+  min-height: 100%;
 }
 
 .logo {
@@ -47,6 +48,7 @@
   align-content: center;
   text-align: center;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 .banner-text img {
@@ -135,10 +137,13 @@
 .projects-grid {
   display: flex;
   justify-content: space-between;
+  min-height: 95%;
+  height: 100%;
 }
 
 .content {
-  min-height: 87%;
+  min-height: 95%;
+  height: 100%;
   background: #fbe8a6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -151,6 +156,7 @@
     #f4976c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
+  padding-bottom: 300px;
 }
 
 .resume-page {
@@ -184,6 +190,8 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
   text-align: center;
+  padding-bottom: 115px;
+  padding-top: 115px;
 }
 
 .resume-right-col {

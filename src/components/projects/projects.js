@@ -337,9 +337,7 @@ class Projects extends Component {
           <Tab>Miscellaneous</Tab>
         </Tabs>
         <Grid>
-          <Cell col={12}>
-            <div>{this.toggleCategories()}</div>
-          </Cell>
+          <Cell col={12}>{this.toggleCategories()}</Cell>
         </Grid>
       </div>
     );
