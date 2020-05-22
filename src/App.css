@@ -29,12 +29,13 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
   text-align: center;
-  min-height: 100%;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .logo {
-  height: 300px;
+  height: 50vh;
+  align-content: center;
+  overflow: "visible";
 }
 
 .drawer {
@@ -43,24 +44,17 @@
 
 .banner-text {
   width: 75%;
-  border-radius: 10px;
+  border-radius: 3vh;
   border-style: solid;
   border-color: #000000;
-  align-content: center;
-  text-align: center;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-
-.banner-text img {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  position: relative;
 }
 
 .banner-text h1 {
-  font-size: 30px;
+  font-size: 200%;
   font-weight: 100;
   text-align: center;
   font: Noto Sans;
@@ -69,13 +63,13 @@
 .banner-text hr {
   width: 70%;
   margin: auto;
-  border-top: 4px solid;
+  border-top: 0.5vh solid black;
 }
 
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
   margin: auto;
   padding-bottom: 6em;
 }
@@ -114,7 +108,7 @@
 .profile-text {
   margin: auto;
   width: 75%;
-  border-radius: 10px;
+  border-radius: 3vh;
   border-style: solid;
   border-color: #000000;
 }
@@ -139,13 +133,12 @@
 .projects-grid {
   display: flex;
   justify-content: space-between;
-  min-height: 95%;
+  min-height: 100%;
   height: 100%;
 }
 
 .content {
-  min-height: 95%;
-  height: 100%;
+  min-height: 100vh;
   background: #fbe8a6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -158,11 +151,10 @@
     #f4976c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
-  padding-bottom: 320px;
 }
 
 .resume-page {
-  min-height: 87%;
+  min-height: 85vh;
   background: #fbe8a6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -178,7 +170,7 @@
 }
 
 .contact-page {
-  min-height: 87%;
+  min-height: 85vh;
   background: #fbe8a6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -192,15 +184,14 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: saturate(150%);
   text-align: center;
-  padding-bottom: 130px;
-  padding-top: 130px;
+  padding-top: 15vh;
 }
 
 .resume-right-col {
   border-style: solid;
   border-color: #000000;
   padding: 2em;
-  border-radius: 10px;
+  border-radius: 3vh;
 }
 
 .resume-right-col h2 {

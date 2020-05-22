@@ -67,7 +67,9 @@ class Experience extends Component {
               endYear="May 2021"
               schoolName="Northeastern University"
             />
-            <hr style={{ borderTop: "3px solid", width: "50%" }} />
+            <hr
+              style={{ borderTop: "3px solid", width: "50%", color: "black" }}
+            />
             <h2>Work Experience</h2>
             <Work
               company="Raytheon Space & Airborne Systems"

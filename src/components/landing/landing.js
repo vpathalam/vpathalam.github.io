@@ -13,7 +13,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <div className="banner-text">
-              <img alt="logo" className="logo" src={Logo} />
+              <img alt="logo" resizeMode="cover" className="logo" src={Logo} />
               <hr />
               <h1>Student | Software Engineer | Hobbyist</h1>
               <div className="social-links">
