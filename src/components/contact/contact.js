@@ -25,8 +25,20 @@ class Contact extends Component {
                     SEND EMAIL
                   </Button>
                 </a>
-                <p>LinkedIn: linkedin.com/in/vikram-pathalam/ </p>
-                <p>GitHub: github.com/vpathalam </p>
+                <a
+                  href="https://linkedin.com/in/vikram-pathalam/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <p>LinkedIn: linkedin.com/in/vikram-pathalam/ </p>
+                </a>
+                <a
+                  href="https://github.com/vpathalam"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <p>GitHub: github.com/vpathalam </p>
+                </a>
               </div>
             </div>
           </Cell>
