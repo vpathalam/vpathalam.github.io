@@ -101,6 +101,32 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#FFFFFF",
+                height: "176px",
+                background:
+                  "url(https://alunos.b7web.com.br/media/courses/laravel.jpg) center / cover",
+              }}
+            >
+              Instagram Clone
+            </CardTitle>
+            <CardText>
+              Created Instagram photo-sharing clone with integration of CRUD
+              operations, social networking functionality using Laravel, PHP,
+              Vue.js.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/vpathalam/instaclone"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
