@@ -115,7 +115,7 @@ class Projects extends Component {
             <CardText>
               Created Instagram photo-sharing clone with integration of CRUD
               operations, social networking functionality using Laravel, PHP,
-              Vue.js.
+              Vue.js, SQLite.
             </CardText>
             <CardActions border>
               <a
