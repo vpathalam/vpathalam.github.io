@@ -114,12 +114,28 @@
   border-radius: 3vh;
   border-style: solid;
   border-color: #000000;
+  background: #fbe8a6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fbe8a6,
+    #f4976c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fbe8a6,
+    #f4976c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .about-intro {
   font: Noto-Sans;
   font-weight: 200;
   font-size: 30px;
+}
+
+.book {
+  height: 300px;
+  border-radius: 10px;
 }
 
 .profile-text p {
