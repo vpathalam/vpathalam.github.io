@@ -40,21 +40,21 @@ class About extends Component {
                   title="How to Win Friends and Influence People"
                   author="Dale Carnegie"
                   genre="Nonfiction"
-                  desc="Learn the six ways to make people like you, the twelve ways to win people to your way of thinking, and the nine ways to change people without arousing resentment."
+                  desc="In the national bestseller, Carnegie delves into the six ways to make people like you, the twelve ways to win people to your way of thinking, and the nine ways to change people without arousing resentment."
                   coverimg={Carnegie}
                 />
                 <Book
                   title="Limitless"
                   author="Jim Kwik"
                   genre="Nonfiction"
-                  desc="In Limitless, readers will learn Jim's revolutionary strategies and shortcuts to supercharging their brains, with simple, actionable tools to sharpen the mind, enhance focus, and fast-track their fullest potential."
+                  desc="In Limitless, readers will learn Kwik's revolutionary strategies and shortcuts to supercharging their brains, with simple, actionable tools to sharpen the mind, enhance focus, and fast-track their fullest potential."
                   coverimg={Kwik}
                 />
                 <Book
                   title="Brief Answers to the Big Questions"
                   author="Stephen Hawking"
                   genre="Nonfiction"
-                  desc="Within these pages, he provides his personal views on our biggest challenges as a human race, and where we, as a planet, are heading next. Each section will be introduced by a leading thinker offering his or her own insight into Professor Hawking's contribution to our understanding."
+                  desc="In his last book, Hawking provides his personal views on our biggest challenges as a human race, and where we, as a planet, are heading next. Each section will be introduced by a leading thinker offering his or her own insight into Professor Hawking's contribution to our understanding."
                   coverimg={Hawking}
                 />
               </Grid>
