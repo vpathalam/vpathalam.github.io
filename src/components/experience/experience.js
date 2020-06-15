@@ -48,6 +48,7 @@ class Experience extends Component {
               <br />• Jupyter Notebook
               <br />• Rhapsody
               <br />• ROS
+              <br />• CARLA
               <br />• Jenkins
               <br />• Docker
               <br />• Kubernetes
@@ -72,8 +73,28 @@ class Experience extends Component {
             />
             <h2>Work Experience</h2>
             <Work
+              company="The Aerospace Corporation"
+              position="Autonomous Systems Intern (Secret Clearance, Virtual)"
+              start="June 2020"
+              end="Present"
+              description={
+                <span>
+                  • Developing autonomous vehicle simulation with SLAM, obstacle
+                  avoidance, LiDAR using ROS, Gazebo, Python
+                  <br />
+                  • Evaluating motion planning and controls algorithms for
+                  simulated autonomous vehicles using CARLA API, Python
+                  <br />
+                  • Extending object detection capability of UAS video tracking
+                  package using YOLO, Python
+                  <br />• Automating setup package for space traffic management
+                  system using Python
+                </span>
+              }
+            />
+            <Work
               company="Raytheon Space & Airborne Systems"
-              position="Software Engineering Co-op"
+              position="Software Engineering Co-op (Secret Clearance)"
               start="July 2019"
               end="Jan 2020"
               description={
