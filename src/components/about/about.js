@@ -6,6 +6,9 @@ import Book from "./book.js";
 import Carnegie from "../../resources/books/carnegie.jpg";
 import Kwik from "../../resources/books/kwik.jpg";
 import Hawking from "../../resources/books/hawking.jpg";
+import King from "../../resources/books/king.jpg";
+import Graham from "../../resources/books/graham.jpg";
+import Tolle from "../../resources/books/tolle.jpg";
 
 class About extends Component {
   render() {
@@ -56,6 +59,29 @@ class About extends Component {
                   genre="Nonfiction"
                   desc="In his last book, Hawking provides his personal views on our biggest challenges as a human race, and where we, as a planet, are heading next. Each section will be introduced by a leading thinker offering his or her own insight into Professor Hawking's contribution to our understanding."
                   coverimg={Hawking}
+                />
+              </Grid>
+              <Grid>
+                <Book
+                  title="The Power of Now: A Guide to Spiritual Enlightenment"
+                  author="Eckhart Tolle"
+                  genre="Nonfiction"
+                  desc="Tolle's message is simple: living in the now is the truest path to happiness and enlightenment. And while this message may not seem stunningly original or fresh, Tolle's clear writing, supportive voice and enthusiasm make this an excellent manual for anyone who's ever wondered what exactly 'living in the now' means."
+                  coverimg={Tolle}
+                />
+                <Book
+                  title="The Intelligent Investor"
+                  author="Benjamin Graham"
+                  genre="Nonfiction"
+                  desc="The greatest investment advisor of the twentieth century, Benjamin Graham taught and inspired people worldwide. Graham's philosophy of 'value investing' -- which shields investors from substantial error and teaches them to develop long-term strategies -- has made The Intelligent Investor the stock market bible ever since its original publication in 1949."
+                  coverimg={Graham}
+                />
+                <Book
+                  title="The Institute"
+                  author="Stephen King"
+                  genre="Fiction - Horror"
+                  desc="As psychically terrifying as Firestarter, and with the spectacular kid power of It, The Institute is Stephen King’s gut-wrenchingly dramatic story of good vs. evil in a world where the good guys don’t always win."
+                  coverimg={King}
                 />
               </Grid>
             </div>
