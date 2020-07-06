@@ -141,12 +141,22 @@ class Projects extends Component {
                   "url(https://miro.medium.com/max/730/1*ND2d6CvH-Cz0dp5I_tYalQ.png) center / cover",
               }}
             >
-              Coming Soon...
+              CoffeeShare iOS
             </CardTitle>
             <CardText>
-              I'm currently learning iOS development using Swift. Stay tuned for
-              this section to be updated!
+              Currently developing coffee-based social networking iOS
+              application. Allows for user profile, rating, and recommendation
+              functionality using Swift, SQLite.
             </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/vpathalam/ios"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
           </Card>
         </div>
       );

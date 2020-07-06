@@ -87,8 +87,8 @@ class Experience extends Component {
                   <br />
                   • Extending object detection capability of UAS video tracking
                   package using YOLO, Python
-                  <br />• Automating setup package for space traffic management
-                  system using Python
+                  <br />• Implementing queries, testing, automation for space
+                  traffic management system using Python, Java, SQL
                 </span>
               }
             />
