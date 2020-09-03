@@ -41,6 +41,8 @@ class Experience extends Component {
               <br /> • Vim
               <br />• Linux
               <br />• Jira (Agile/Scrum)
+              <br />• MySQL Workbench
+              <br />• PostgreSQL
               <br />• Django
               <br />• Flask
               <br />• Tensorflow
