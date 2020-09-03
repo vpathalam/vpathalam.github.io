@@ -35,13 +35,16 @@ class Experience extends Component {
               <br />• Angular
               <br />• VisualBasic
             </p>
-            <h4 className="workname">Technologies/Environment:</h4>
+            <h4 className="workname">Platforms & Applications:</h4>
             <p className="exp-description">
               • Git
               <br /> • Vim
               <br />• Linux
               <br />• Jira (Agile/Scrum)
+              <br />• Django
+              <br />• Flask
               <br />• Tensorflow
+              <br />• PyTorch
               <br />• Scikit-learn
               <br />• Keras
               <br />• OpenCV
@@ -64,8 +67,8 @@ class Experience extends Component {
           <Cell col={8} className="resume-right-col">
             <h2>Education</h2>
             <Education
-              startYear="Sept 2017"
-              endYear="May 2021"
+              startYear="2017"
+              endYear="2021"
               schoolName="Northeastern University"
             />
             <hr
@@ -74,27 +77,33 @@ class Experience extends Component {
             <h2>Work Experience</h2>
             <Work
               company="The Aerospace Corporation"
-              position="Autonomous Systems Intern (Secret Clearance, Virtual)"
+              position="Autonomous Systems Intern (DoD Secret Clearance)"
               start="June 2020"
               end="Present"
               description={
                 <span>
                   • Developing autonomous vehicle simulation with SLAM, obstacle
-                  avoidance, LiDAR using ROS, Gazebo, Python
+                  avoidance, LiDAR functionality using ROS, Gazebo, Python
                   <br />
-                  • Evaluating motion planning and controls algorithms for
-                  simulated autonomous vehicles using CARLA API, Python
+                  • Importing autonomous navigation simulation software to
+                  hardware for prototyping and demonstration efforts
+                  <br />
+                  • Evaluating motion planning algorithms for simulated
+                  self-driving vehicles using CARLA, Python
+                  <br />
+                  • Implementing reinforcement learning-based Deep Q Network
+                  approach for autonomous navigation
                   <br />
                   • Extending object detection capability of UAS video tracking
-                  package using YOLO, Python
-                  <br />• Implementing queries, testing, automation for space
-                  traffic management system using Python, Java, SQL
+                  package using YOLO Convolutional Neural Network, Python
+                  <br />• Implementing queries, testing for space traffic
+                  management system using Java, SQL
                 </span>
               }
             />
             <Work
               company="Raytheon Space & Airborne Systems"
-              position="Software Engineering Co-op (Secret Clearance)"
+              position="Software Engineering Co-op (DoD Secret Clearance)"
               start="July 2019"
               end="Jan 2020"
               description={
