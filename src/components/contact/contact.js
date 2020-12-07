@@ -39,6 +39,13 @@ class Contact extends Component {
                 >
                   <p>GitHub: github.com/vpathalam </p>
                 </a>
+                <a
+                  href="https://scholar.google.com/citations?hl=en&user=WewV87EAAAAJ"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <p>Google Scholar: scholar.google.com </p>
+                </a>
               </div>
             </div>
           </Cell>
