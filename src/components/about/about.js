@@ -94,7 +94,7 @@ class About extends Component {
                   title="Zero to One"
                   author="Peter Thiel"
                   genre="Nonfiction"
-                  desc="The great secret of our time is that there are still uncharted frontiers to explore and new inventions to create. In Zero to One, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things. Doing what someone else already knows how to do takes the world from 1 to n, adding more of something familiar. But when you do something new, you go from 0 to 1. Zero to One presents at once an optimistic view of the future of progress in America and a new way of thinking about innovation: it starts by learning to ask the questions that lead you to find value in unexpected places."
+                  desc="In Zero to One, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things. Doing what someone else already knows how to do takes the world from 1 to n, adding more of something familiar. But when you do something new, you go from 0 to 1."
                   coverimg={Thiel}
                 />
               </Grid>
