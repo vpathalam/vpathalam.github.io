@@ -180,6 +180,32 @@ class Projects extends Component {
               Structure Sensor based on F1Tenth Curriculum @ UPenn.
             </CardText>
           </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#FFFFFF",
+                height: "176px",
+                background:
+                  "url(https://draftfcb.net/wp-content/uploads/2019/09/1.jpg) center / cover",
+              }}
+            >
+              CNN Object Detection Algorithms
+            </CardTitle>
+            <CardText>
+            Implemented and evaluated 3 state of the art CNN algorithms (YOLO, SSD, FRCNN) on KITTI dataset to classify frequently seen object classes of self-driving cars with the intent of cracking reCaptcha.
+              Developed as a part of CS4150: Artificial Intelligence @
+              Northeastern by Austin Ho, Stefan Philip, Vikram Pathalam.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/vpathalam/ai-finalproject"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 3) {
@@ -308,32 +334,6 @@ class Projects extends Component {
             <CardActions border>
               <a
                 href="https://github.com/vpathalam/nlp-hesitation"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>GitHub</Button>
-              </a>
-            </CardActions>
-          </Card>
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#FFFFFF",
-                height: "176px",
-                background:
-                  "url(https://draftfcb.net/wp-content/uploads/2019/09/1.jpg) center / cover",
-              }}
-            >
-              CNN Object Detection Algorithms
-            </CardTitle>
-            <CardText>
-            Implemented and evaluated 3 state of the art CNN algorithms (YOLO, SSD, FRCNN) on KITTI dataset to classify frequently seen object classes of self-driving cars with the intent of cracking reCaptcha.
-              Developed as a part of CS4150: Artificial Intelligence @
-              Northeastern by Austin Ho, Stefan Philip, Vikram Pathalam.
-            </CardText>
-            <CardActions border>
-              <a
-                href="https://github.com/vpathalam/ai-finalproject"
                 rel="noopener noreferrer"
                 target="_blank"
               >
