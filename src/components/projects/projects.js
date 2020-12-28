@@ -271,20 +271,18 @@ class Projects extends Component {
               Tweet Sentiment Analysis
             </CardTitle>
             <CardText>
-              Developed classification models (AdaBoost Ensemble, G-Naive Bayes, Random Forest Ensemble) and LSTM RNN using Python, Sci-Kit Learn to 
+              Developed classification models (AdaBoost Ensemble, G-Naive Bayes, Random Forest Ensemble) and LSTM RNN to 
               predict positive/negative sentiments from WallStreetJournal tweets. Utilized
-              Natural Language Processing Techniques such as filtering (stop words, regex), tokenization and vectorization (Count, TFIDF),
-              and K-Folds Cross Validation.
-              Developed as a part of DS4400: Machine Learning @
-              Northeastern.
+              NLP Techniques such as filtering, tokenization, vectorization, K-Folds Cross Validation.
+              Developed as a part of DS4400: Machine Learning @ Northeastern by Vikram Pathalam, Thomas Jacob.
             </CardText>
             <CardActions border>
               <a
-                href="https://github.com/vpathalam/tweet-stock-prediction"
+                href="https://colab.research.google.com/drive/1RnQpDXE7nGAriP0Uf_LifBp4O0LZYzD3?usp=sharing"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Button colored>GitHub</Button>
+                <Button colored>GOOGLE COLAB</Button>
               </a>
             </CardActions>
           </Card>
@@ -326,10 +324,10 @@ class Projects extends Component {
                   "url(https://draftfcb.net/wp-content/uploads/2019/09/1.jpg) center / cover",
               }}
             >
-              NLP Hesitation
+              CNN Object Detection Algorithms
             </CardTitle>
             <CardText>
-            Implementations of Object Detection Algorithms (YOLO, FRCNN, SSD) with the intent of cracking reCaptcha. Implemented and evaluated 3 state of the art CNN algorithms on KITTI dataset to classify frequently seen object classes of self-driving cars.
+            Implemented and evaluated 3 state of the art CNN algorithms (YOLO, SSD, FRCNN) on KITTI dataset to classify frequently seen object classes of self-driving cars with the intent of cracking reCaptcha.
               Developed as a part of CS4150: Artificial Intelligence @
               Northeastern by Austin Ho, Stefan Philip, Vikram Pathalam.
             </CardText>
