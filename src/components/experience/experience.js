@@ -18,6 +18,7 @@ class Experience extends Component {
               <br /> • Python
               <br />• C
               <br />• C++
+              <br />• Go
               <br />• SQL
               <br />• React.js
               <br />• Node.js
@@ -84,11 +85,7 @@ class Experience extends Component {
               end="Present"
               description={
                 <span>
-                  • Developing autonomous vehicle simulation with SLAM, obstacle
-                  avoidance, LiDAR functionality using ROS, Gazebo, Python
-                  <br />
-                  • Importing autonomous navigation simulation software to
-                  hardware for prototyping and demonstration efforts
+                  • Developing autonomous vehicle simulation to spearhead ‘Multipurpose Operational Modes of Autonomy’ research initiative with obstacle avoidance, simultaneous localization and mapping using ROS, Gazebo, Python
                   <br />
                   • Evaluating motion planning algorithms for simulated
                   self-driving vehicles using CARLA, Python
@@ -98,8 +95,11 @@ class Experience extends Component {
                   <br />
                   • Extending object detection capability of UAS video tracking
                   package using YOLO Convolutional Neural Network, Python
-                  <br />• Implementing queries, testing for space traffic
+                  <br />
+                  • Implementing queries, testing for space traffic
                   management system using Java, SQL
+                  <br />
+                  • Developing interactive data visualization platform for space infrastructure and VR implementations using Unity, C#
                 </span>
               }
             />
