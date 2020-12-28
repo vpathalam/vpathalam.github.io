@@ -259,6 +259,90 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#FFFFFF",
+                height: "176px",
+                background:
+                  "url(https://draftfcb.net/wp-content/uploads/2019/09/1.jpg) center / cover",
+              }}
+            >
+              Tweet Sentiment Analysis
+            </CardTitle>
+            <CardText>
+              Developed classification models (AdaBoost Ensemble, G-Naive Bayes, Random Forest Ensemble) and LSTM RNN using Python, Sci-Kit Learn to 
+              predict positive/negative sentiments from WallStreetJournal tweets. Utilized
+              Natural Language Processing Techniques such as filtering (stop words, regex), tokenization and vectorization (Count, TFIDF),
+              and K-Folds Cross Validation.
+              Developed as a part of DS4400: Machine Learning @
+              Northeastern.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/vpathalam/tweet-stock-prediction"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#FFFFFF",
+                height: "176px",
+                background:
+                  "url(https://draftfcb.net/wp-content/uploads/2019/09/1.jpg) center / cover",
+              }}
+            >
+              NLP Hesitation
+            </CardTitle>
+            <CardText>
+              Investigated impact of filler words and hesitations on request intent. 
+              Utilized speech to text Google SpeechRecognizer API, NLTK, and a MLPerceptron to 
+              classify phrase sentiments. Assigned and manipulated weights of subjects based on 
+              hesitation placement, sentiment of request, noun ordering.
+              Developed as a part of CS3950: Intro to CS Research @
+              Northeastern.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/vpathalam/nlp-hesitation"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#FFFFFF",
+                height: "176px",
+                background:
+                  "url(https://draftfcb.net/wp-content/uploads/2019/09/1.jpg) center / cover",
+              }}
+            >
+              NLP Hesitation
+            </CardTitle>
+            <CardText>
+            Implementations of Object Detection Algorithms (YOLO, FRCNN, SSD) with the intent of cracking reCaptcha. Implemented and evaluated 3 state of the art CNN algorithms on KITTI dataset to classify frequently seen object classes of self-driving cars.
+              Developed as a part of CS4150: Artificial Intelligence @
+              Northeastern by Austin Ho, Stefan Philip, Vikram Pathalam.
+            </CardText>
+            <CardActions border>
+              <a
+                href="https://github.com/vpathalam/ai-finalproject"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 4) {
