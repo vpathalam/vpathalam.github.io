@@ -21,13 +21,15 @@ class Education extends Component {
           <h4 className="workname" style={{ marginTop: "4px" }}>
             {this.props.schoolName}
           </h4>
-          <p className="position">Candidate for B.S. in Computer Science</p>
+          <p className="position">B.S. in Computer Science</p>
           <p className="exp-description">
             Relevant Coursework: Algorithms & Data Structures, Object Oriented
-            Design, Computer Systems, Probability & Statistics, Linear Algebra,
-            Discrete Structures, Logic & Computation, Embedded Systems Robotics,
-            Database Design, Complete Data Science Training: Advanced Statistics
-            in Python, Machine & Deep Learning (Udemy)
+            Design, Artificial Intelligence, Machine Learning, Software Development,
+            Networks & Distributed Systems, Theory of Computation, Computer Systems, 
+            Probability & Statistics, Linear Algebra, Discrete Structures, 
+            Logic & Computation, Embedded Systems Robotics, Database Design, 
+            Complete Data Science Training: Advanced Statistics in Python, 
+            Machine & Deep Learning (Udemy)
           </p>
         </Cell>
       </Grid>
