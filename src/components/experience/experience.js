@@ -42,7 +42,6 @@ class Experience extends Component {
               <br />• ROS
               <br />• Gazebo
               <br />• Linux
-              <br />• Vim
               <br />• MySQL Workbench
               <br />• PostgreSQL
               <br />• Django
